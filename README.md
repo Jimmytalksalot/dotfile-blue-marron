@@ -1,13 +1,27 @@
 <div align="center">
 <h1>🌊 Blue Maroon<h1>
 
+
+
+
 ![20240809_23h47m03s_grim](https://github.com/user-attachments/assets/5ae5a923-daf7-4ef6-860f-f95341e7c017)
+
+
+
 
 A 'Minimal Rice' all in Ubuntu. Wait, am I reading that right?
 
+
+
+
 Installed Hyprland with the help of...
 
+
+
+
 https://github.com/Jimmytalksalot/Debian-Hyprland?tab=readme-ov-file 
+
+
 
 Made by **Jakoolkit** 
 
