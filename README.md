@@ -1,8 +1,4 @@
-<div align="center">
-<h1>🌊 Blue Maroon<h1>
-
-
-
+# 🌊 Blue Maroon
 
 ![20240809_23h47m03s_grim](https://github.com/user-attachments/assets/5ae5a923-daf7-4ef6-860f-f95341e7c017)
 
