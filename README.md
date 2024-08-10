@@ -1,4 +1,4 @@
-#  🌊 Blue Maroon
+                         #  🌊 Blue Maroon
 
 ![20240809_23h47m03s_grim](https://github.com/user-attachments/assets/5ae5a923-daf7-4ef6-860f-f95341e7c017)
 
@@ -33,6 +33,7 @@ The fetch script used was called rxfetch. Here is the link to it if you want to 
 
 https://github.com/Mangeshrex/rxfetch/tree/main
 Just add the file to /usr/bin and make sure it's executable. Then you can run it anywhere in the terminal.
+
 
 
 
