@@ -9,17 +9,17 @@
 
 
 
-A 'Minimal Rice' all in Ubuntu. Wait, am I reading that right?
+*A 'Minimal Rice' all in Ubuntu. Wait, am I reading that right?*
 
 
 
 
-Installed Hyprland with the help of...
+*Installed Hyprland with the help of...*
 
 
 
 
-https://github.com/Jimmytalksalot/Debian-Hyprland?tab=readme-ov-file 
+   https://github.com/Jimmytalksalot/Debian-Hyprland?tab=readme-ov-file 
 
 
 
