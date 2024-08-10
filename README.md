@@ -31,6 +31,11 @@ After that, clone this repository, and add all the folders to your .config file.
 
 ```~/.config/``` 
 
+
+
+**Why is it called blue-maroon?**
+
+Well one thing to take note of, is depending on the settings and type of monitor you use. The colours may look like a pinkish maroon or a greyish blue. 
 After that, reload Hyprland, and everything should work fine. If it doesn't, let me know here.
 
 https://www.reddit.com/r/unixporn/comments/1eoe24v/hyprland_i_changed_my_color_scheme_thoughts/
