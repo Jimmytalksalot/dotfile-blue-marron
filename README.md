@@ -26,7 +26,7 @@ https://www.reddit.com/r/unixporn/comments/1eoe24v/hyprland_i_changed_my_color_s
 
 Or just make an issue.
 
-# ℹ️ Fetch script
+# 💻 Fetch script
 
 The fetch script used was called rxfetch. Here is the link to it if you want to check it out.
 
