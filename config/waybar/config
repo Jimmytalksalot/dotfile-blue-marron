@@ -1,0 +1,35 @@
+
+
+
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top", 
+"position": "top", 
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"gtk-layer-shell": true,
+"margin-left": 0,
+"margin-right": 0,
+"margin-top": 0,
+
+"modules-left": [	
+  "clock#2",
+  "hyprland/window",
+	],
+    
+"modules-center": [
+   "custom/swaync",
+	],
+   
+
+"modules-right": [
+ "hyprland/workspaces",
+ "group/windowsearch",
+ "group/powerusin",
+ "group/search",
+ "group/usin",
+	],
+}
+
