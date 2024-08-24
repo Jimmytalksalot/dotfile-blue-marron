@@ -1,0 +1,219 @@
+
+
+
+@define-color arch #1793D1;
+@define-color trans #000000;
+@define-color background  #0f0f0f;
+@define-color foreground #5c5f77;
+@define-color bg #0c0c0c;
+* {
+	font-family: "Fira Code Semibold";
+	font-weight: bold;
+	min-height: 0;	
+
+	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
+	font-size: 6.3px;
+	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+
+}
+
+window#waybar {
+  background: @background;
+  color: @foreground;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  padding: 0px;
+}
+
+#taskbar button,
+#workspaces button {
+  color: @foreground;
+}
+
+#taskbar button.active,
+#workspaces button.active {
+  border-bottom: 0px solid green;
+}
+
+#taskbar button.urgent,
+#workspaces button.urgent {
+  border-bottom: 2px solid red;
+}
+
+#submap {
+  border-bottom: 1px solid red;
+}
+
+#custom-power,
+#custom-reddit,
+#custom-yt-prof,
+#custom-git,
+#custom-waybar-wiki,
+#custom-arandr,
+#custom-text,
+#custom-lockedd,
+#custom-restart,
+#custom-shutdown,
+#custom-powerusintext,
+#custom-user,
+#custom-term,
+#custom-oti,
+#custom-files,
+#tray,
+#custom-image,
+#language,
+#custom-temp,
+#custom-apps,
+#backlight,
+#battery,
+#bluetooth,
+#cpu,
+#custom-h,
+#disk,
+#idle_inhibitor,
+#keyboard-state,
+#memory,
+#mode,
+#mpris,
+#network,
+#power-profiles-daemon,
+#pulseaudio,
+#taskbar button,
+#taskbar,
+#temperature,
+#wireplumber,
+#custom-backlight,
+#custom-cycle_wall,
+#custom-hint,
+#custom-keyboard,
+#custom-light_dark,
+#custom-lock,
+#custom-menu,
+#custom-power_vertical
+#custom-power,
+#custom-swaync,
+#custom-updater,
+#custom-weather,
+#custom-yt,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.default, 
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.severe,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.sunnyDay {
+  color: @foreground;
+  background: @bg;
+  padding: 10px;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+#custom-arch {
+  color: @foreground;
+  background: @bg;
+}
+
+#window,
+#clock {
+  color: @foreground;
+  background: @bg;
+  padding: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+window#waybar.empty #window {
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+
+#custom-logo{
+  font-size: 0px;
+  background-image: url('/home/fizcakez/Pictures/channels4_profile.jpg'); 
+  background-size: contain;
+}
+
+   
+#battery.warning,
+#disk
+#memory.warning,
+#cpu.warning {
+  border-top: 3px solid @background;
+  border-bottom: 3px solid yellow;
+  padding: 10px;
+  margin: 3px;
+}
+
+#battery.critical,
+#disk.critical,
+#memory.critical,
+#cpu.critical {
+  border-top: 3px solid @background;
+  border-bottom: 3px solid red;
+}
+
+#temperature.critical {
+	background-color: red;
+} 
+
+#battery.charging {
+  border-top: 3px solid @background;
+  border-bottom: 3px solid green;
+}
+
+#pulseaudio-slider slider {
+	min-width: 0px;
+	min-height: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+	
+#pulseaudio-slider trough {
+	min-width: 80px;  
+	min-height: 5px; 
+	border-radius: 5px;
+	background-color: @dim;
+}
+	
+#pulseaudio-slider highlight {
+	min-height: 10px; 
+	border-radius: 5px;
+	background-color: @green;
+}
+
+#backlight-slider slider {
+	min-width: 0px;
+	min-height: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+	
+#backlight-slider trough {
+	min-width: 80px;  
+	min-height: 10px; 
+	border-radius: 5px;
+	background-color: @dim;
+}
+	
+#backlight-slider highlight {
+	min-width: 10px; 
+	border-radius: 5px;
+	background-color: @green;
+}
+
+
+
