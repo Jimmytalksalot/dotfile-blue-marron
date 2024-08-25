@@ -26,10 +26,16 @@
 
 "modules-right": [
  "hyprland/workspaces",
- "group/windowsearch",
+ "cpu",
+ "memory",
+ "battery",
+ "pulseaudio",
+ "disk",
+ "network",
+ "tray",
  "group/powerusin",
- "group/search",
  "group/usin",
+ "group/search",
 	],
 }
 

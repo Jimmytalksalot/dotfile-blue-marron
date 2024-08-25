@@ -25,8 +25,8 @@
     "10": [],
 	},
 	"format-icons": {
-		"active": "",
-		"default": "",
+		"active": "",
+		"default": "",
 	},
 },
 // ROMAN Numerals style
@@ -682,12 +682,17 @@
 },
 
 "custom/h": {
-	"format": " search ",
+	"format": " 󰣇 arch ",
 	"on-click": "rofi -show drun",
 	"tooltip": true,
 	"tooltip-format": "{exec}",
   "exec": "echo hello"
 },
+
+"custom/arch": {
+    "format": " arch linux ",
+    "on-click": "rofi -show drun",
+  },
 
 
 "custom/apps": {
