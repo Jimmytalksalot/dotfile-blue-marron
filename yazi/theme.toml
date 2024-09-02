@@ -1,0 +1,99 @@
+[manager]
+cwd = {fg =  "#363644"}
+hovered = {fg = "#2c2c35" }
+preview_hovered = {fg =  "#2c2c35"}
+marker_selected = {fg =  "#363644"}
+marker_copied = {fg =  "#363644"}
+border_style = {fg =  "#0e0e0e"} 
+tab_active = {fg =  "#363644"}
+tab_inactive = {fg =  "#363644"}
+tab_width = 1
+
+
+
+[select]
+inactive = {fg = "#58688c"}
+active = {fg = "#ffffff", bg = "#264662"}
+selected  = {fg = "#ffffff"}
+value  = {fg = "#ffffff"}
+
+
+[input]
+title = {fg =  "#ffffff"} 
+
+[completion]
+active = {fg = "#264662"}
+inactive = {fg = "#264662"}
+icon_folder = "🗀" 
+
+[tasks]
+title  = {fg = "#ffffff"}
+
+[status]
+mode_normal  = {fg =  "#6c7086"}
+mode_select = {fg =  "#1a1417"} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+[theme]
+name = "MyCustomTheme"
+
+# Define the styles for different file types
+[filetype]
+rules = [
+    # Images
+    { mime = "image/*", fg = "#363644" },
+
+    # Videos
+    { mime = "video/*", fg =  "#363644"  },
+    { mime = "audio/*", fg =  "#363644"  },
+
+    # Empty files
+    { mime = "inode/x-empty", fg =  "#363644"  },
+
+    # Orphan symbolic links
+    { name = "*", is = "orphan", fg = "#363644" },
+
+    # All files
+    { name = "*", fg = "#363644" },
+
+    # All directories
+    { name = "*/", fg = "#363644", text = "🗀"  }
+]
+
+# Set the icon color
+[icon]
+prepend_rules = [
+	{ name = "*.rs"    , text = "" },
+	{ name = "Desktop/", text = "" },
+	# ...
+
+	# Icon with a color
+	{ name = "*.lua", text = "", fg = "#363644" },
+
+	# You can also use `is` rule, just like `[filetype]` section
+	# Orphan symbolic links
+	{ name = "*", is = "orphan", text = "" },
+  {name = "*.exe", text = "", fg = "#363644" },
+  {name = "*.bin", text = "", fg = "#363644" },
+    {name = "*.jpg", text = "", fg = "#363644" },
+   {name = "*.png", text = "", fg = "#363644" },
+   {name = "*.pdf", text = "󰈦", fg =  "#363644" },
+]
+
+append_rules = [
+	# My fallback icons
+	{ name = "*" , text = "" },
+	{ name = "*/", text = "🖿" },
+ { name = "*.txt", text = ""},
+]
